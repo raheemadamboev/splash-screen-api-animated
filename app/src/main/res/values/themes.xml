@@ -4,4 +4,10 @@
     <style name="Theme.SplashScreenAPIAnimated" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
+
+    <style name="Theme.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenAPIAnimated</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/inset_icon</item>
+    </style>
 </resources>
